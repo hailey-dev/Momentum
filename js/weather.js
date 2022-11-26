@@ -18,7 +18,7 @@ function onGeoOK(position){
             
             const weatherIconCode = data.weather[0].icon;
             const weatherIcon = document.createElement("img");
-            weatherIcon.src = `../img/${weatherIconCode}.png`;
+            weatherIcon.src = `./img/${weatherIconCode}.png`;
 
             icon.append(weatherIcon);
             const temp = Math.floor(data.main.temp);
