@@ -9,5 +9,5 @@ function getClock(){
     const seconds = String(date.getSeconds()).padStart(2, "0");
     clock.innerText = `${hours}:${minutes}:${seconds}`;
 
-    "1".pa
+    
 }setInterval(getClock, 1000);
